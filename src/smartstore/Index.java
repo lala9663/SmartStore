@@ -1,7 +1,11 @@
 package smartstore;
 
-import java.util.Scanner;
+import smartstore.first.*;
+import smartstore.second.*;
+import smartstore.third.*;
 
+
+import java.util.Scanner;
 public class Index {
     // 메인페이지
     public static void main(String[] args) {
@@ -25,13 +29,17 @@ public class Index {
             switch (choice){
                 case 1:
                    ClassificationParameter classification = new ClassificationParameter();
-                   classification.join();
+                   classification.first();
 
                     break;
                 case 2:
+                    CustomerData customerData = new CustomerData();
+                    customerData.second();
 
                     break;
                 case 3:
+                    Summary summary = new Summary();
+                    summary.third();
 
                     break;
                 default:

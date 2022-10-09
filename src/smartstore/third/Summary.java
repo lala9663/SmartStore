@@ -1,24 +1,24 @@
-package smartstore;
+package smartstore.third;
 
 import java.util.Scanner;
 
-public class ClassificationParameter {
+public class Summary {
     Scanner sc = new Scanner(System.in);
-    void join(){
 
+    public void third(){
         while (true){
-
             System.out.println("======================================");
-            System.out.println("1. Set Parameter");
-            System.out.println("2. View Parameter");
-            System.out.println("3. Update Parameter");
-            System.out.println("4. Back");
+            System.out.println("1. Summary");
+            System.out.println("2. Summary (Sorted By Name");
+            System.out.println("3. Summary (Sorted By Spent Time");
+            System.out.println("4. Summary (sorted By Total Payment");
+            System.out.println("5. Back");
             System.out.println("======================================");
             System.out.print("Choose One: ");
 
             int choice = sc.nextInt();
-            if(choice == 4){
-                System.out.println("돌아가기!");
+            if(choice == 5){
+                System.out.println("처음으로 돌아갑니다");
                 break;
             }
             switch (choice){
@@ -31,9 +31,14 @@ public class ClassificationParameter {
                 case 3:
 
                     break;
+                case 4:
+
+                    break;
                 default:
                     System.out.println("다시 입력하세요");
             }
+
         }
+
     }
 }

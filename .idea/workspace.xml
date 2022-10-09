@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 221009" />
+    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 221009">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/first/General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/third/Summary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/ClassificationParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/ClassificationParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/CustomerData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/SetParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/SetParameter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,20 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/campus_kty/SmartStore&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/campus_kty/SmartStore"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="smartstore.Index" />
       <module name="SmartStore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="smartstore.*" />
+          <option name="PATTERN" value="smartstore.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665321801277</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 221009">
+      <created>1665322313098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665322313098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
