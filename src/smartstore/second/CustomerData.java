@@ -19,11 +19,13 @@ public class CustomerData {
 
             int choice = sc.nextInt();
             if(choice == 5){
-                System.out.println("프로그램 종료합니다");
+                System.out.println("이전으로 돌아갑니다");
                 break;
             }
             switch (choice){
                 case 1:
+                    AddCustomerData addCustomerData = new AddCustomerData();
+                    addCustomerData.addCustomer();
 
                     break;
                 case 2:

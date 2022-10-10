@@ -6,9 +6,11 @@ import smartstore.first.grade.VVIP;
 
 import java.util.Scanner;
 
-public class SetParameter {
-   Scanner sc = new Scanner(System.in);
-    public void rate() {
+public class ViewParameter {
+    Scanner sc = new Scanner(System.in);
+    General general = new General();
+
+    public void view(){
         while (true) {
             System.out.println("**Press 'end', if you want to exit! **");
             System.out.print("Which group(GENERAL, VIP, VVIP)? ");
@@ -20,8 +22,7 @@ public class SetParameter {
             }
             switch (choice){
                 case "GENERAL":
-                    General general = new General();
-                    general.rate();
+                    System.out.println("Parameter: Parameter{minimunSpentTime="+general.getTime()+", minimumTotalPay="+general.getPay()+"}" );
                     break;
 
                 case "VIP":
@@ -35,5 +36,6 @@ public class SetParameter {
                     break;
             }
         }
+
     }
 }

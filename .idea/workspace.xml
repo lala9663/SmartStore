@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 221009">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/first/General.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/third/Summary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/first/UpdateParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/first/ViewParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VVIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/AddCustomerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/ViewCustomerData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/ClassificationParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/ClassificationParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/CustomerData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/SetParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/SetParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/ClassificationParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/ClassificationParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/General.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/SetParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/SetParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665322313098</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: 221009">
+      <created>1665325350569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665325350569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

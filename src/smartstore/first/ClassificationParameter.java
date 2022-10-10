@@ -28,9 +28,13 @@ public class ClassificationParameter {
 
                     break;
                 case 2:
+                    ViewParameter viewParameter = new ViewParameter();
+                    viewParameter.view();
 
                     break;
                 case 3:
+                    UpdateParameter updateParameter = new UpdateParameter();
+                    updateParameter.update();
 
                     break;
                 default:
