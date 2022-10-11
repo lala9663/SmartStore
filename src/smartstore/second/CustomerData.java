@@ -7,7 +7,6 @@ public class CustomerData {
     public void  second(){
         while (true){
 
-
             System.out.println("======================================");
             System.out.println("1. Add Customer Data");
             System.out.println("2. View Customer Date");

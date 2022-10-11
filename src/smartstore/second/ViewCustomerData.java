@@ -1,19 +1,12 @@
 package smartstore.second;
 
+import smartstore.second.member.Member;
 public class ViewCustomerData {
-
+    Member member = new Member();
     public void viewCustomerData(){
         System.out.println("====== Customer Info. ======");
-
-        System.out.println("======================================");
-        System.out.println("1. Add Customer Data");
-        System.out.println("2. View Customer Date");
-        System.out.println("3. Update Customer Data");
-        System.out.println("4. Delete Customer Data");
-        System.out.println("5. Back");
-        System.out.println("======================================");
-        System.out.print("Choose One: ");
-
+        System.out.println("No.1 => Customer{serialNO= '0001', name= "+member.getCustomerName()+", userID= "+member.getCustomerID()
+                +", spentTime= " +member.getSpentTime()+", totalPay= "+member.getTotalPay());
         }
 
     }

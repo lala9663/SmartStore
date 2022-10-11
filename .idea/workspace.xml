@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: view parameter 불러오는 법을..">
-      <change afterPath="$PROJECT_DIR$/src/smartstore/first/grade/Null.java" afterDir="false" />
+    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: General Vip VVip 초안 완성">
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/member/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/UpdateParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/UpdateParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/ViewParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/ViewParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/General.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VVIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VVIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/second/AddCustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/AddCustomerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/second/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/second/ViewCustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/ViewCustomerData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665394677231</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: General Vip VVip 초안 완성">
+      <created>1665468247701</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665468247701</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 221009" />
     <MESSAGE value="feat: view parameter 불러오는 법을.." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: view parameter 불러오는 법을.." />
+    <MESSAGE value="feat: General Vip VVip 초안 완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: General Vip VVip 초안 완성" />
   </component>
 </project>
