@@ -9,6 +9,8 @@ import java.util.Scanner;
 public class ViewParameter {
     Scanner sc = new Scanner(System.in);
     General general = new General();
+    VIP vip = new VIP();
+    VVIP vvip = new VVIP();
 
     public void view(){
         while (true) {
@@ -22,18 +24,36 @@ public class ViewParameter {
             }
             switch (choice){
                 case "GENERAL":
+                    if(General.getTime()==0 && General.getTime()== 0){
+                        System.out.println(" ");
+                        System.out.println("GroupType: GENERAL");
+                        System.out.println("Parameter: null");
+                        System.out.println(" ");
+                        break;
+                    }else{
                     System.out.println("Parameter: Parameter{minimunSpentTime="+general.getTime()+", minimumTotalPay="+general.getPay()+"}" );
-                    break;
+                    break;}
 
                 case "VIP":
-                    VIP vip = new VIP();
-                    vip.rate();
-                    break;
-
+                    if(VIP.getTime()==0 && VIP.getTime()== 0){
+                        System.out.println(" ");
+                        System.out.println("GroupType: VIP");
+                        System.out.println("Parameter: null");
+                        System.out.println(" ");
+                        break;
+                    }else{
+                    System.out.println("Parameter: Parameter{minimunSpentTime="+vip.getTime()+", minimumTotalPay="+vip.getPay()+"}" );
+                    break;}
                 case "VVIP":
-                    VVIP vvip = new VVIP();
-                    vvip.rate();
-                    break;
+                    if(VVIP.getTime()==0 && VVIP.getTime()== 0){
+                        System.out.println(" ");
+                        System.out.println("GroupType: VVIP");
+                        System.out.println("Parameter: null");
+                        System.out.println(" ");
+                        break;
+                    }else{
+                    System.out.println("Parameter: Parameter{minimunSpentTime="+vvip.getTime()+", minimumTotalPay="+vvip.getPay()+"}" );
+                    break;}
             }
         }
 

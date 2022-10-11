@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 221009">
-      <change afterPath="$PROJECT_DIR$/src/smartstore/first/UpdateParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/first/ViewParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VVIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/second/AddCustomerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/second/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/second/ViewCustomerData.java" afterDir="false" />
+    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: view parameter 불러오는 법을..">
+      <change afterPath="$PROJECT_DIR$/src/smartstore/first/grade/Null.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/ClassificationParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/ClassificationParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/General.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/SetParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/SetParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/UpdateParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/UpdateParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/ViewParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/ViewParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/General.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VVIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VVIP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665325350569</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: view parameter 불러오는 법을..">
+      <created>1665394677231</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665394677231</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 221009" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 221009" />
+    <MESSAGE value="feat: view parameter 불러오는 법을.." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: view parameter 불러오는 법을.." />
   </component>
 </project>
