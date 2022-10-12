@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: General Vip VVip 초안 완성">
-      <change afterPath="$PROJECT_DIR$/src/smartstore/second/member/Member.java" afterDir="false" />
+    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: member 고치는중">
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/DeleteCustomerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/second/UpdateCustomerData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/second/AddCustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/AddCustomerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/Customer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/second/ViewCustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/ViewCustomerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/second/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/second/member/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665468247701</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: member 고치는중">
+      <created>1665500311777</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665500311777</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +164,7 @@
     <MESSAGE value="feat: 221009" />
     <MESSAGE value="feat: view parameter 불러오는 법을.." />
     <MESSAGE value="feat: General Vip VVip 초안 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: General Vip VVip 초안 완성" />
+    <MESSAGE value="feat: member 고치는중" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: member 고치는중" />
   </component>
 </project>

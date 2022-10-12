@@ -90,8 +90,7 @@ public class Member {
 
 public void join() {
     Scanner sc = new Scanner(System.in);
-
-    for (int i = 0; i < addCustomerData.getMembers(); i++) {
+    for (int i = 0; i <addCustomerData.getMembers(); i++) {            // addCustomerData.getMembers 말고 숫자쓰면 입력받아진다
         while (true) {
             System.out.println("========== Customer " + (i + 1) + " Info. =========");
             System.out.println("=============================================");
@@ -99,7 +98,7 @@ public void join() {
             System.out.println("2. Customer ID");
             System.out.println("3. Customer Spent Time");
             System.out.println("4. Customer Total Pay");
-            System.out.println("5. Back");
+            System.out.println("5. Back or 다음");
             System.out.println("=============================================");
             System.out.print("Choose One: ");
 
