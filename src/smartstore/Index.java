@@ -1,7 +1,7 @@
 package smartstore;
 
 import smartstore.first.*;
-import smartstore.second.*;
+import smartstore.customer.*;
 import smartstore.third.*;
 
 
@@ -33,7 +33,7 @@ public class Index {
 
                     break;
                 case 2:
-                    CustomerData customerData = new CustomerData();
+                    Second customerData = new Second();
                     customerData.second();
 
                     break;

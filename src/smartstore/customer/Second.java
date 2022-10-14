@@ -1,10 +1,8 @@
-package smartstore.second;
-
-import smartstore.first.UpdateParameter;
+package smartstore.customer;
 
 import java.util.Scanner;
 
-public class CustomerData {
+public class Second {
     Scanner sc = new Scanner(System.in);
     public void  second(){
         while (true){
@@ -25,21 +23,23 @@ public class CustomerData {
             }
             switch (choice){
                 case 1:
-                    AddCustomerData addCustomerData = new AddCustomerData();
-                    AddCustomerData.addCustomer();
+//                    AddCustomer addCustomer = new AddCustomer();
+//                    AddCustomer.addCustomer();
+                    Customer customer = new Customer();
+                    customer.list();
 
                     break;
                 case 2:
-                    ViewCustomerData viewCustomerData = new ViewCustomerData();
-                    viewCustomerData.viewCustomerData();
+//                    ViewCustomerData viewCustomerData = new ViewCustomerData();
+//                    viewCustomerData.viewCustomerData();
 
                     break;
                 case 3:
-                    UpdateCustomerData updateCustomerData = new UpdateCustomerData();
+                    Update updateCustomerData = new Update();
 
                     break;
                 case 4:
-                    DeleteCustomerData deleteCustomerData = new DeleteCustomerData();
+                    Delete deleteCustomerData = new Delete();
 
                     break;
                 default:
