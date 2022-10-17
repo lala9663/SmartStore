@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: member 쪽 아예 새롭게 시작해야 할 듯">
-      <change afterPath="$PROJECT_DIR$/src/smartstore/customer/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/customer/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/customer/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartstore/customer/View.java" afterDir="false" />
+    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 하다가 막혀서 다시 강의 듣고 시작해야 할듯">
+      <change afterPath="$PROJECT_DIR$/src/smartstore/customer/Add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/AddCustomerData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/CustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/DeleteCustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/UpdateCustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/ViewCustomerData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/second/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Second.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/campus_kty/SmartStore",
+    "last_opened_file_path": "C:/Users/김태윤/Desktop/fastcampus-kdt3-master",
     "settings.editor.selected.configurable": "preferences.sourceCode.JSON"
   }
 }]]></component>
@@ -160,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665575422609</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: 하다가 막혀서 다시 강의 듣고 시작해야 할듯">
+      <created>1665744867613</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665744867613</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +177,7 @@
     <MESSAGE value="feat: General Vip VVip 초안 완성" />
     <MESSAGE value="feat: member 고치는중" />
     <MESSAGE value="feat: member 쪽 아예 새롭게 시작해야 할 듯" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: member 쪽 아예 새롭게 시작해야 할 듯" />
+    <MESSAGE value="feat: 하다가 막혀서 다시 강의 듣고 시작해야 할듯" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 하다가 막혀서 다시 강의 듣고 시작해야 할듯" />
   </component>
 </project>

@@ -1,5 +1,7 @@
 package smartstore.customer;
 
+import smartstore.first.ViewParameter;
+
 import java.util.Scanner;
 
 public class Second {
@@ -25,13 +27,13 @@ public class Second {
                 case 1:
 //                    AddCustomer addCustomer = new AddCustomer();
 //                    AddCustomer.addCustomer();
-                    Customer customer = new Customer();
-                    customer.list();
+                   Add add = new Add();
+                   add.list();
+
 
                     break;
                 case 2:
-//                    ViewCustomerData viewCustomerData = new ViewCustomerData();
-//                    viewCustomerData.viewCustomerData();
+                    View view = new View();
 
                     break;
                 case 3:
