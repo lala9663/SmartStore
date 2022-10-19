@@ -1,4 +1,4 @@
-package smartstore.first;
+package smartstore.group;
 
 import java.util.Scanner;
 

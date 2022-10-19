@@ -1,4 +1,4 @@
-package smartstore.first.grade;
+package smartstore.group.grade;
 
 import java.util.Scanner;
 

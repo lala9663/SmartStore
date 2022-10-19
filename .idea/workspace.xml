@@ -6,6 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: ing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Second.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/ClassificationParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/ClassificationParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/SetParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/SetParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/UpdateParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/UpdateParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/ViewParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/ViewParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/grade/General.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/Null.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/grade/Null.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/grade/VIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VVIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/grade/VVIP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +50,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/김태윤/Desktop/fastcampus-kdt3-master",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/campus_kty/Online_Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.sourceCode.JSON"
   }
 }]]></component>
@@ -46,7 +65,7 @@
       <module name="SmartStore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="smartstore.first.*" />
+          <option name="PATTERN" value="smartstore.group.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,6 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665217643126</updated>
+      <workItem from="1666094263798" duration="4466000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 221009">
       <created>1665321239571</created>
@@ -160,8 +180,18 @@
       <option name="project" value="LOCAL" />
       <updated>1666006982631</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: ing">
+      <created>1666078135339</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666078135339</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

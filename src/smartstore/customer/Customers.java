@@ -13,6 +13,11 @@ public class Customers extends Customer {
     public Customers(Customer[] customers) {
         this.customers = customers;
     }
+
+    public Customers() {
+
+    }
+
     public Customer get(int i){
         return customers[i];
     }

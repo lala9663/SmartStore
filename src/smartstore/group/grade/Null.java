@@ -1,4 +1,4 @@
-package smartstore.first.grade;
+package smartstore.group.grade;
 
 public class Null {
     General general = new General();

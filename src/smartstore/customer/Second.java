@@ -1,7 +1,5 @@
 package smartstore.customer;
 
-import smartstore.first.ViewParameter;
-
 import java.util.Scanner;
 
 public class Second {

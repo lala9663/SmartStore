@@ -1,6 +1,6 @@
 package smartstore;
 
-import smartstore.first.*;
+import smartstore.group.*;
 import smartstore.customer.*;
 import smartstore.third.*;
 

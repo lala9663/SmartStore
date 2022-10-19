@@ -1,8 +1,8 @@
-package smartstore.first;
+package smartstore.group;
 
-import smartstore.first.grade.General;
-import smartstore.first.grade.VIP;
-import smartstore.first.grade.VVIP;
+import smartstore.group.grade.General;
+import smartstore.group.grade.VIP;
+import smartstore.group.grade.VVIP;
 
 import java.util.Scanner;
 
