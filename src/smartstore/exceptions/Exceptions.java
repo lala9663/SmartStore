@@ -21,4 +21,19 @@ public class Exceptions {
         }
         return true;
     }
+
+    public static int checkGroupType(String type) {
+        if (type.equals("GENERAL")) {
+            return 1;
+        } else if (type.equals("VIP")) {
+            return 2;
+        } else if (type.equals("VVIP")) {
+            return 3;
+        } else if (type.equals("end")) {
+            return 4;
+        } else {
+            System.out.println("Invalid Input. Please try again.");
+            return 0;
+        }
+    }
 }
