@@ -5,21 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: ing">
+      <change afterPath="$PROJECT_DIR$/src/smartstore/exceptions/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/group/GroupType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/group/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/group/Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/menu/CustomerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/menu/GroupMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/menu/OrderTypeMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/menu/ParameterMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartstore/menu/SummaryMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Add.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Students.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/ClassificationParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/ClassificationParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/SetParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/SetParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/UpdateParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/UpdateParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/ViewParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/ViewParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/grade/General.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/Null.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/grade/Null.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/grade/VIP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/first/grade/VVIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/grade/VVIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Second.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Update.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/group/ClassificationParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/group/SetParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/group/UpdateParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/group/ViewParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/group/grade/General.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/group/grade/Null.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/group/grade/VIP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/group/grade/VVIP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/third/Summary.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/campus_kty/Online_Java",
+    "last_opened_file_path": "C:/campus_kty/fastcampus-kdt3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +102,10 @@
       <option name="presentableId" value="Default" />
       <updated>1665217643126</updated>
       <workItem from="1666094263798" duration="4466000" />
+      <workItem from="1666191560470" duration="25000" />
+      <workItem from="1666197125155" duration="719000" />
+      <workItem from="1666244416080" duration="48000" />
+      <workItem from="1666282496134" duration="15800000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 221009">
       <created>1665321239571</created>
@@ -187,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666078135339</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: ing">
+      <created>1666191573624</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666191573624</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
