@@ -12,7 +12,7 @@ public class Customer {
     protected int time;
     protected int pay;
     private static int count = 0;
-    private static final int MAX_MEMBER = 10000;    // 최대 10000명까지 생성가능 ( 관련 로직은 구현하지 않음)
+    private static final int MAX_MEMBER = 10000;
 
 
     public Customer() {

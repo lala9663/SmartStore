@@ -1,5 +1,6 @@
 package smartstore.customer;
 
+import smartstore.Text;
 import smartstore.exceptions.Exceptions;
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class Customers {
 
     public void addCustomer(Scanner sc){
         while (true){
-            Print.check();
+            Text.check();
             String input = sc.nextLine();
             if (input.equals("0"))
                 return;
@@ -34,7 +35,7 @@ public class Customers {
 
     public void setCustomer(Customer customer, Scanner sc){
         while (true){
-            Print.CustomerInfo();
+            Text.CustomerInfo();
             String input = sc.nextLine();
             if (Exceptions.check(input, 1, 5)){
                 int chooseNum = Integer.parseInt(input);
@@ -53,58 +54,59 @@ public class Customers {
         }
     }
 
+
     private void setName(Customer customer, Scanner sc){
-        while (true){
+        while (true) {
+            System.out.print("회원 이름: ");
             String input = sc.nextLine();
-            System.out.println("Input Customer's Name: ");
-            if (input.length() >= 3 && Exceptions.checkStringType(input) == true){
+            if (input.length() >= 5 && Exceptions.checkName(input)){
                 customer.name = input;
                 break;
             }
-            System.out.println("유요하지 않아요 다시요");
+            System.out.println("유효하지 않습니다. 영어만 입력해주세요");
         }
     }
+
     private void setID(Customer customer, Scanner scan) {
         while (true) {
+            System.out.print("회원 아이디 입력: ");
             String input = scan.nextLine();
-            System.out.println("Input Customer's UserID: ");
-            if (input.length() >= 5 &&
-                    ('a' <= input.charAt(0) && input.charAt(0) <= 'z') &&
-                    ('A' <= input.charAt(0) && input.charAt(0) <= 'Z')) {
+            if (input.length() >= 5 && Exceptions.checkID(input) == true
+            ) {
                 customer.id = input;
                 break;
             }
-            System.out.println("유요하지 않아요 다시요");
+            System.out.println("유요하지 않습니다. 영어와 숫자만 입력해주세요");
         }
     }
 
     private void setSpentTime(Customer customer, Scanner scan) {
         while (true) {
+            System.out.print("Input Customer's Spent Time at Your Store: ");
             String input = scan.nextLine();
-            System.out.println("Input Customer's Spent Time at Your Store: ");
             if (Exceptions.check(input, 0, Integer.MAX_VALUE)) {
                 customer.time = Integer.parseInt(input);
                 break;
             }
-            System.out.println("Invalid Format for Input. Please try again.\n");
+            System.out.println("Invalid Format for Input. Please try again. \n");
         }
     }
 
 
     private void setTotalPay(Customer customer, Scanner scan) {
         while (true) {
+            System.out.print("Input Customer's Spent Time at Your Store: ");
             String input = scan.nextLine();
-            System.out.println("Input Customer's Spent Time at Your Store:\n");
             if (Exceptions.check(input, 0, Integer.MAX_VALUE)) {
                 customer.pay = Integer.parseInt(input);
                 break;
             }
-            System.out.println("Invalid Format for Input. Please try again.\n");
+            System.out.println("Invalid Format for Input. Please try again. \n");
         }
     }
 
     public void viewCustomer(){
-       Print.view();
+       Text.view();
         for (int i = 0; i <customerNum; i++) {
             System.out.println("No. " + (i+1) + " => " + customers[i].toString());
         }
@@ -115,7 +117,7 @@ public class Customers {
         System.out.println();
         System.out.println("Which customer ( 1 ~ " + (customerNum) + " )?");
         String input = sc.nextLine();
-        if (Exceptions.checkStringType(input)){
+        if (Exceptions.update(input)){
             int no = Integer.parseInt(input);
             if (0 <= no && no <= customerNum){
                 setCustomer(customers[customerNum -1], sc);
