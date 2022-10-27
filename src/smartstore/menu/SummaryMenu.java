@@ -1,10 +1,13 @@
 package smartstore.menu;
 
 import java.util.Scanner;
+
+import smartstore.Text;
 import smartstore.customer.Customers;
 import smartstore.group.Groups;
 
 public class SummaryMenu extends Menu {
+
     @Override
     public void showMenu() {
         System.out.print("==============================\n" +
@@ -16,7 +19,6 @@ public class SummaryMenu extends Menu {
                 "==============================\n" +
                 "Choose One: ");
     }
-
     @Override
     public Menu setMenu(int chooseNum, Groups groups, Customers customers, Scanner scan) {
         while (true) {

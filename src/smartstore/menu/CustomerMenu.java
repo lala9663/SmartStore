@@ -2,6 +2,7 @@ package smartstore.menu;
 
 import java.util.Scanner;
 
+import smartstore.Text;
 import smartstore.customer.*;
 import smartstore.group.Groups;
 
@@ -12,6 +13,8 @@ import smartstore.group.Groups;
 public class CustomerMenu extends Menu {
     private int menuCountMin = 1;
     private int menuCountMax = 5;
+
+
 
     @Override
     public void showMenu() {
@@ -25,10 +28,10 @@ public class CustomerMenu extends Menu {
                 "Choose One: ");
     }
 
-
     @Override
     public Menu setMenu(int chooseNum, Groups groups, Customers customers, Scanner scan) {
         while (true) {
+
             if (chooseNum == 1) {     // 1. Add Customer Data
                 customers.addCustomer(scan);
                 return this;

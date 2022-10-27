@@ -1,5 +1,6 @@
 package smartstore.menu;
 
+import smartstore.Text;
 import smartstore.customer.Customers;
 import smartstore.group.Groups;
 import java.util.Scanner;
@@ -13,11 +14,11 @@ public class Menu {
     private int menuCountMin = 1;
     private int menuCountMax = 4;
 
+
+
     public void start() {
-        System.out.println("실행합니다");
+        System.out.println("토이프로젝트 스마트스토어");
     }
-
-
     public void showMenu() {
         System.out.print("==============================\n" +
                 " 1. Classification Parameter\n" +
@@ -27,6 +28,7 @@ public class Menu {
                 "==============================\n" +
                 "Choose One: ");
     }
+
 
     public Menu setMenu(int chooseNum, Groups groups, Customers customers, Scanner scan) {
         while (true) {

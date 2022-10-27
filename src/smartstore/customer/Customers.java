@@ -126,6 +126,21 @@ public class Customers {
 
     }
 
+    // customer 쪽 에 summary를 만들면 더 쉬울거 같음.
+    public void summaryByName(){
+        Text.bar();
+        System.out.println("Others : " + customerNum + "customer(s)");
+        Text.bar2();
+        if (customerNum == 0 ){
+            System.out.println("No customer.\n");
+        } else {
+            for (int i = 0; i <customerNum; i++) {
+                System.out.println("No. " + (i+1) + " => " + customers[i].toString());
+            }
+
+        }
+    }
+
 }
 
 

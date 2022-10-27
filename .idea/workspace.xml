@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 예외처리 해야함">
+    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 예외처리 추가">
+      <change afterPath="$PROJECT_DIR$/src/smartstore/summary/Summary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Index.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/exceptions/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/exceptions/Exceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/group/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/menu/CustomerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/CustomerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/menu/ParameterMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/ParameterMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartstore/menu/SummaryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/SummaryMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +102,13 @@
       <workItem from="1666358169526" duration="1148000" />
       <workItem from="1666359356391" duration="32000" />
       <workItem from="1666359586403" duration="90000" />
-      <workItem from="1666607197667" duration="10335000" />
+      <workItem from="1666607197667" duration="16640000" />
+      <workItem from="1666674364739" duration="29000" />
+      <workItem from="1666677245757" duration="11410000" />
+      <workItem from="1666718463674" duration="3248000" />
+      <workItem from="1666762046245" duration="11000" />
+      <workItem from="1666843971490" duration="6587000" />
+      <workItem from="1666871061331" duration="1200000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 221009">
       <created>1665321239571</created>
@@ -239,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666359379884</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: 오류사항 수정">
+      <created>1666629211443</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666629211443</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: 예외처리 추가">
+      <created>1666629263178</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1666629263178</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +290,8 @@
     <MESSAGE value="feat: 하다가 막혀서 다시 강의 듣고 시작해야 할듯" />
     <MESSAGE value="feat: ing" />
     <MESSAGE value="feat: 예외처리 해야함" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 예외처리 해야함" />
+    <MESSAGE value="feat: 오류사항 수정" />
+    <MESSAGE value="feat: 예외처리 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 예외처리 추가" />
   </component>
 </project>
