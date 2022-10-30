@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: summary 시간부족, 어려움">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/exceptions/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/exceptions/Exceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/menu/CustomerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/CustomerMenu.java" afterDir="false" />
-    </list>
+    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 조금 수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/campus_kty/KDT3_Java_ToyProject_SmartStore",
+    "last_opened_file_path": "C:/campus_kty/TIL",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,6 +99,7 @@
       <workItem from="1666871061331" duration="2242000" />
       <workItem from="1666950912765" duration="199000" />
       <workItem from="1666951931003" duration="3689000" />
+      <workItem from="1667143032186" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 221009">
       <created>1665321239571</created>
@@ -267,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666872300759</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: 조금 수정">
+      <created>1667143066538</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667143066538</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +299,7 @@
     <MESSAGE value="feat: 예외처리 추가" />
     <MESSAGE value="feat: summary 시간부족, 어려움 정리가 안됨" />
     <MESSAGE value="feat: summary 시간부족, 어려움" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: summary 시간부족, 어려움" />
+    <MESSAGE value="feat: 조금 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 조금 수정" />
   </component>
 </project>
