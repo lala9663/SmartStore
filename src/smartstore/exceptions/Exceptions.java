@@ -38,7 +38,7 @@ public class Exceptions {
         return true;
     }
 
-    //입력받은 문자열이 숫자라면 true, 반대인 경우 false
+
     public static boolean update(String input) {
         for (int i = 0; i < input.length(); i++) {
             if (input.charAt(i) < '0' || input.charAt(i) > '9')
@@ -46,6 +46,8 @@ public class Exceptions {
         }
         return true;
     }
+
+
 
     public static int checkGroupType(String type) {
         if (type.equals("GENERAL")) {

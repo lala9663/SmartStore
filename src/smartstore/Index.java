@@ -32,6 +32,9 @@ public class Index {
 				menu = menu.setMenu(Integer.parseInt(chooseNum), groups, customers, sc);
 
 			}
+			if (menu.getClass() == OrderTypeMenu.class){
+				break;
+			}
 		}
 	}
 }

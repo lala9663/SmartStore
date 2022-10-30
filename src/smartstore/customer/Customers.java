@@ -123,6 +123,20 @@ public class Customers {
                 setCustomer(customers[customerNum -1], sc);
             }
         }
+    }
+
+    public void deleteCustomer(Scanner sc){
+        viewCustomer();
+        System.out.println();
+        System.out.println("Which customer ( 1 ~ " + (customerNum) + " )?");
+        String input = sc.nextLine();
+        if (Exceptions.update(input)){
+            int no = Integer.parseInt(input);
+            if (0 <= no && no <= customerNum){
+
+            }
+        }
+
 
     }
 

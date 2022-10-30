@@ -42,6 +42,7 @@ public class CustomerMenu extends Menu {
                 customers.updateCustomer(scan);
                 return this;
             } else if (chooseNum == 4) {//  // 4. Delete Customer Data
+
                 return this;
             } else if (chooseNum == 5) {// 5. Back
                 return new Menu();

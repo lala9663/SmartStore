@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: 예외처리 추가">
-      <change afterPath="$PROJECT_DIR$/src/smartstore/summary/Summary.java" afterDir="false" />
+    <list default="true" id="3283e9b5-61b0-409c-a684-2865a73bece8" name="Changes" comment="feat: summary 시간부족, 어려움">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Index.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/customer/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/customer/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/exceptions/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/exceptions/Exceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/group/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/group/Groups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartstore/menu/CustomerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/CustomerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/menu/ParameterMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/ParameterMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartstore/menu/SummaryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartstore/menu/SummaryMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/campus_kty/SmartStore",
+    "last_opened_file_path": "C:/campus_kty/KDT3_Java_ToyProject_SmartStore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,7 +102,9 @@
       <workItem from="1666718463674" duration="3248000" />
       <workItem from="1666762046245" duration="11000" />
       <workItem from="1666843971490" duration="6587000" />
-      <workItem from="1666871061331" duration="1200000" />
+      <workItem from="1666871061331" duration="2242000" />
+      <workItem from="1666950912765" duration="199000" />
+      <workItem from="1666951931003" duration="3689000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 221009">
       <created>1665321239571</created>
@@ -264,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666629263178</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat: summary 시간부족, 어려움">
+      <created>1666872300759</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666872300759</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +295,8 @@
     <MESSAGE value="feat: 예외처리 해야함" />
     <MESSAGE value="feat: 오류사항 수정" />
     <MESSAGE value="feat: 예외처리 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 예외처리 추가" />
+    <MESSAGE value="feat: summary 시간부족, 어려움 정리가 안됨" />
+    <MESSAGE value="feat: summary 시간부족, 어려움" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: summary 시간부족, 어려움" />
   </component>
 </project>
